@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.toshiba_pc.mycon.FFormula"
+    tools:showIn="@layout/activity_fformula">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1-To convert temperatures in degrees Celsius to Fahrenheit, multiply by 1.8 (or 9/5) and add 32.
+2-To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9)
+3- to convert kilometers to miles, simply multiply the number of kilometers by 0.6
+4- and to convert miles to kilometers multiply by 1.6."
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="69dp"
+        tools:ignore="MissingConstraints"
+        />
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
